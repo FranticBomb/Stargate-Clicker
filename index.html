@@ -233,6 +233,12 @@
         setInterval(function() {
           saveGame();
         }, 30000) ; // 30000ms = 30 seconds
+
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.which == 83){
+            event.preventDefault();
+          }
+        }; false);
       </script>
   </body>
 </html>

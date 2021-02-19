@@ -212,6 +212,14 @@
 
         window.onload = function() {
             loadGame();
+            updateCashPerSec();
+            document.getElementById("cash").innerHTML = cash;
+            document.getElementById("zpmCost").innerHTML = zpmCost;
+            document.getElementById("zpms").innerHTML = zpms;
+            document.getElementById("alphasiteCost").innerHTML = alphasiteCost;
+            document.getElementById("alphasites").innerHTML = alphasites;
+            document.getElementById("sgteamCost").innerHTML = sgteamCost;
+            document.getElementById("sgteams").innerHTML = sgteams;
         };
 
         setInterval(function() {

@@ -1,0 +1,76 @@
+#cash{
+  color: #0be881;
+  font-weight: bolder;
+}
+#cashpersecond{
+  color: #05c46b;
+  font-weight: bolder;
+}
+.sectionLeft {
+  float: left;
+  width: 80%;
+
+}
+.sectionRight {
+  float: right;
+  width: 20%;
+}
+.cashcontainer {
+  background-color: rgb(238,238,238, 0.6);
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.clickercontainer img {
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+.clickercontainer img:hover { transform:scale(1.10);}
+.clickercontainer img:active {transform:scale(0.98);}
+
+.shopButton {
+  background-color: #b5b5b5;
+  transition: all .2s ease-in-out;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+.shopButton:hover {
+  background-color: #c7c7c7;
+  transition: all .2s ease-in-out;
+}
+.shopButton #image {
+  width: 20%;
+
+}
+.shopButton img {
+  height: 74px;
+  width: 84px;
+}
+.shopButton #nameAndCost p {
+  margin: 0px;
+  width: 60%
+
+}
+.shopButton #nameAndCost p:first-of-type {
+  font-size: 25px;
+}
+.shopButton #amount {
+  font-size: 48px;
+  color: #595959;
+  font-family: roboto;
+  width: 15%;
+}
+.sectionFooter{
+  margin-top: 10%;
+}
+.unselectable {
+  user-select: none;
+}
+
+#upgradeContainer img {
+  height: 64px;
+  width: 64px;
+}
